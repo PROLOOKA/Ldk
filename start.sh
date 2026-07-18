@@ -2,7 +2,7 @@
 
 mkdir -p /app/hls
 
-ffmpeg -re -i "https://restpdmqtest2only-production.up.railway.app/memfs/0ac7e015-6376-47d8-9443-45e1fe530683.m3u8" \
+ffmpeg -re -i "http://qwerty65.xyz:80/47352164/fSe3AuX/112591" \
 -c copy \
 -f hls \
 -hls_time 4 \
