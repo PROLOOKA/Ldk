@@ -1,10 +1,5 @@
-FROM jrottenberg/ffmpeg:6.1-alpine
+FROM ddvtech/mistserver:latest
 
-WORKDIR /app
+EXPOSE 4242 8080 1935 554
 
-COPY start.sh /app/start.sh
-RUN chmod +x /app/start.sh
-
-EXPOSE 8080
-
-CMD ["/app/start.sh"]
+ENV PORT=8080
